@@ -1,0 +1,14 @@
+Source: neon-repositories
+Section: kde
+Priority: optional
+Maintainer: KDE neon <neon@kde.org>
+Build-Depends: debhelper, debhelper-compat (= 12)
+Standards-Version: 4.5.1
+
+Package: neon-repositories-ubuntu-ddebs
+Architecture: all
+Depends: ${misc:Depends}
+Pre-Depends: apt, ubuntu-dbgsym-keyring
+Description: Ubuntu debug symbols repository sources.list
+ Adds the Ubuntu ddebs repository to the sources.list of apt if it isn't already
+ present.

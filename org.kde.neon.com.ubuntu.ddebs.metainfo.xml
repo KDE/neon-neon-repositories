@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-License-Identifier: FSFAP
+  SPDX-FileCopyrightText: 2020 Harald Sitter <sitter@kde.org>
+ -->
+<component type="repository">
+  <id>org.kde.neon.com.ubuntu.ddebs</id>
+  <metadata_license>FSFAP</metadata_license>
+  <name>rangdang Ubuntu Debug Symbols</name>
+  <summary>Debug Symbols for Ubuntu</summary>
+  <pkgname>neon-repositories-ubuntu-ddebs</pkgname>
+</component>
