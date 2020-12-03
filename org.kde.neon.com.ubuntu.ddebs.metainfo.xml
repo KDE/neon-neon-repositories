@@ -6,7 +6,7 @@
 <component type="repository">
   <id>org.kde.neon.com.ubuntu.ddebs</id>
   <metadata_license>FSFAP</metadata_license>
-  <name>rangdang Ubuntu Debug Symbols</name>
+  <name>Ubuntu Debug Symbols</name>
   <summary>Debug Symbols for Ubuntu</summary>
   <pkgname>neon-repositories-ubuntu-ddebs</pkgname>
 </component>
