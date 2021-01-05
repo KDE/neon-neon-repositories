@@ -24,7 +24,7 @@ fi
 if ! grep --quiet --extended-regexp -r --include="*.list" '^deb\s.+ddebs.ubuntu.com' \
       /etc/apt/sources.list \
       /etc/apt/sources.list.d; then
-  echo "WARNING: REPO ADDING FAILED!"
+  echo "WARNING: ddebs.ubuntu.com REPO ADDING FAILED! Please file a bug at bugs.kde.org"
 else
   # Refresh the cache if it doesn't already contain ddebs. This appears to be doable since updates
   # don't claim the lock. Whether it's sane to do is another question entirely...
