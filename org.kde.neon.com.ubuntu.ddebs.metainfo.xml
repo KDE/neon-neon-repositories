@@ -11,7 +11,10 @@
   <name xml:lang="fr">Symboles de débogage pour Ubuntu</name>
   <name xml:lang="hu">Ubuntu hibakeresési szimbólumok</name>
   <name xml:lang="nl">Debugsymbolen voor Ubuntu</name>
+  <name xml:lang="nn">Feilsøkings­symbol for Ubuntu</name>
   <name xml:lang="pt">Símbolos de Depuração da Ubuntu</name>
+  <name xml:lang="ru">Отладочные символы Ubuntu</name>
+  <name xml:lang="sl">Ubuntu Debug Symbols</name>
   <name xml:lang="uk">Діагностичні символи Ubuntu</name>
   <name xml:lang="x-test">xxUbuntu Debug Symbolsxx</name>
   <summary>Debug Symbols for Ubuntu</summary>
@@ -19,7 +22,10 @@
   <summary xml:lang="fr">Symboles de débogage pour Ubuntu</summary>
   <summary xml:lang="hu">Hibakeresési szimbólumok az Ubuntuhoz</summary>
   <summary xml:lang="nl">Debugsymbolen voor Ubuntu</summary>
+  <summary xml:lang="nn">Feilsøkings­symbol for Ubuntu</summary>
   <summary xml:lang="pt">Símbolos de Depuração da Ubuntu</summary>
+  <summary xml:lang="ru">Отладочные символы для Ubuntu</summary>
+  <summary xml:lang="sl">Razhroščevalni simboli za Ubuntu</summary>
   <summary xml:lang="uk">Діагностичні символи для Ubuntu</summary>
   <summary xml:lang="x-test">xxDebug Symbols for Ubuntuxx</summary>
   <pkgname>neon-repositories-ubuntu-ddebs</pkgname>
