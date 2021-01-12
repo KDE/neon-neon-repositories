@@ -7,6 +7,8 @@
   <id>org.kde.neon.com.ubuntu.ddebs</id>
   <metadata_license>FSFAP</metadata_license>
   <name>Ubuntu Debug Symbols</name>
+  <name xml:lang="ca">Símbols de depuració de l'Ubuntu</name>
+  <name xml:lang="ca-valencia">Símbols de depuració de l'Ubuntu</name>
   <name xml:lang="en-GB">Ubuntu Debug Symbols</name>
   <name xml:lang="es">Símbolos de depuración de Ubuntu</name>
   <name xml:lang="fr">Symboles de débogage pour Ubuntu</name>
@@ -14,11 +16,15 @@
   <name xml:lang="nl">Debugsymbolen voor Ubuntu</name>
   <name xml:lang="nn">Feilsøkings­symbol for Ubuntu</name>
   <name xml:lang="pt">Símbolos de Depuração da Ubuntu</name>
+  <name xml:lang="pt-BR">Símbolos de depuração do Ubuntu</name>
   <name xml:lang="ru">Отладочные символы Ubuntu</name>
+  <name xml:lang="sk">Ladiace symboly Ubuntu</name>
   <name xml:lang="sl">Ubuntu Debug Symbols</name>
   <name xml:lang="uk">Діагностичні символи Ubuntu</name>
   <name xml:lang="x-test">xxUbuntu Debug Symbolsxx</name>
   <summary>Debug Symbols for Ubuntu</summary>
+  <summary xml:lang="ca">Símbols de depuració per a l'Ubuntu</summary>
+  <summary xml:lang="ca-valencia">Símbols de depuració per a l'Ubuntu</summary>
   <summary xml:lang="en-GB">Debug Symbols for Ubuntu</summary>
   <summary xml:lang="es">Símbolos de depuración para Ubuntu</summary>
   <summary xml:lang="fr">Symboles de débogage pour Ubuntu</summary>
@@ -26,7 +32,9 @@
   <summary xml:lang="nl">Debugsymbolen voor Ubuntu</summary>
   <summary xml:lang="nn">Feilsøkings­symbol for Ubuntu</summary>
   <summary xml:lang="pt">Símbolos de Depuração da Ubuntu</summary>
+  <summary xml:lang="pt-BR">Símbolos de depuração para o Ubuntu</summary>
   <summary xml:lang="ru">Отладочные символы для Ubuntu</summary>
+  <summary xml:lang="sk">Ladiace symboly pre Ubuntu</summary>
   <summary xml:lang="sl">Razhroščevalni simboli za Ubuntu</summary>
   <summary xml:lang="uk">Діагностичні символи для Ubuntu</summary>
   <summary xml:lang="x-test">xxDebug Symbols for Ubuntuxx</summary>
