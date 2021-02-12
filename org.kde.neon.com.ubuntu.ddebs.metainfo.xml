@@ -23,6 +23,7 @@
   <name xml:lang="ru">Отладочные символы Ubuntu</name>
   <name xml:lang="sk">Ladiace symboly Ubuntu</name>
   <name xml:lang="sl">Ubuntu Debug Symbols</name>
+  <name xml:lang="sv">Ubuntu avlusningssymboler</name>
   <name xml:lang="uk">Діагностичні символи Ubuntu</name>
   <name xml:lang="x-test">xxUbuntu Debug Symbolsxx</name>
   <summary>Debug Symbols for Ubuntu</summary>
@@ -42,6 +43,7 @@
   <summary xml:lang="ru">Отладочные символы для Ubuntu</summary>
   <summary xml:lang="sk">Ladiace symboly pre Ubuntu</summary>
   <summary xml:lang="sl">Razhroščevalni simboli za Ubuntu</summary>
+  <summary xml:lang="sv">Avlusningssymboler för Ubuntu</summary>
   <summary xml:lang="uk">Діагностичні символи для Ubuntu</summary>
   <summary xml:lang="x-test">xxDebug Symbols for Ubuntuxx</summary>
   <pkgname>neon-repositories-ubuntu-ddebs</pkgname>
