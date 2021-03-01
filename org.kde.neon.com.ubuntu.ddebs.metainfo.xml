@@ -19,6 +19,7 @@
   <name xml:lang="id">Simbol Debug Ubuntu</name>
   <name xml:lang="nl">Debugsymbolen voor Ubuntu</name>
   <name xml:lang="nn">Feilsøkings­symbol for Ubuntu</name>
+  <name xml:lang="pl">Symbole diagnostyczne Ubuntu</name>
   <name xml:lang="pt">Símbolos de Depuração da Ubuntu</name>
   <name xml:lang="pt-BR">Símbolos de depuração do Ubuntu</name>
   <name xml:lang="ru">Отладочные символы Ubuntu</name>
@@ -40,6 +41,7 @@
   <summary xml:lang="id">Simbol-simbol Debug untuk Ubuntu</summary>
   <summary xml:lang="nl">Debugsymbolen voor Ubuntu</summary>
   <summary xml:lang="nn">Feilsøkings­symbol for Ubuntu</summary>
+  <summary xml:lang="pl">Symbole diagnostyczne dla Ubuntu</summary>
   <summary xml:lang="pt">Símbolos de Depuração da Ubuntu</summary>
   <summary xml:lang="pt-BR">Símbolos de depuração para o Ubuntu</summary>
   <summary xml:lang="ru">Отладочные символы для Ubuntu</summary>
