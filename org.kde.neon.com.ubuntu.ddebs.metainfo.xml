@@ -28,6 +28,7 @@
   <name xml:lang="pl">Symbole diagnostyczne Ubuntu</name>
   <name xml:lang="pt">Símbolos de Depuração da Ubuntu</name>
   <name xml:lang="pt-BR">Símbolos de depuração do Ubuntu</name>
+  <name xml:lang="ro">Simboluri de depanare Ubuntu</name>
   <name xml:lang="ru">Отладочные символы Ubuntu</name>
   <name xml:lang="sk">Ladiace symboly Ubuntu</name>
   <name xml:lang="sl">Ubuntu Debug Symbols</name>
@@ -58,6 +59,7 @@
   <summary xml:lang="pl">Symbole diagnostyczne dla Ubuntu</summary>
   <summary xml:lang="pt">Símbolos de Depuração da Ubuntu</summary>
   <summary xml:lang="pt-BR">Símbolos de depuração para o Ubuntu</summary>
+  <summary xml:lang="ro">Simboluri de depanare pentru Ubuntu</summary>
   <summary xml:lang="ru">Отладочные символы для Ubuntu</summary>
   <summary xml:lang="sk">Ladiace symboly pre Ubuntu</summary>
   <summary xml:lang="sl">Razhroščevalni simboli za Ubuntu</summary>
