@@ -34,6 +34,7 @@
   <name xml:lang="sl">Ubuntu Debug Symbols</name>
   <name xml:lang="sv">Ubuntu avlusningssymboler</name>
   <name xml:lang="ta">உபுண்டு பிழைத்திருத்த குறியீடுகள்</name>
+  <name xml:lang="tr">Ubuntu Hata Ayıklama Sembolleri</name>
   <name xml:lang="uk">Діагностичні символи Ubuntu</name>
   <name xml:lang="x-test">xxUbuntu Debug Symbolsxx</name>
   <name xml:lang="zh-CN">Ubuntu 调试符号包</name>
@@ -65,6 +66,7 @@
   <summary xml:lang="sl">Razhroščevalni simboli za Ubuntu</summary>
   <summary xml:lang="sv">Avlusningssymboler för Ubuntu</summary>
   <summary xml:lang="ta">உபுண்டுக்கான பிழைத்திருத்த குறியீடுகள் (debug symbols)</summary>
+  <summary xml:lang="tr">Ubuntu için Hata Ayıklama Sembolleri</summary>
   <summary xml:lang="uk">Діагностичні символи для Ubuntu</summary>
   <summary xml:lang="x-test">xxDebug Symbols for Ubuntuxx</summary>
   <summary xml:lang="zh-CN">为 Ubuntu 准备的调试符号包</summary>
