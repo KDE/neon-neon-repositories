@@ -22,6 +22,7 @@
   <name xml:lang="hu">Ubuntu hibakeresési szimbólumok</name>
   <name xml:lang="id">Simbol Debug Ubuntu</name>
   <name xml:lang="it">Simboli di debug Ubuntu</name>
+  <name xml:lang="ka">Ubuntu-ს გამართვის სიმბოლოები</name>
   <name xml:lang="ko">우분투 디버그 기호</name>
   <name xml:lang="nl">Debugsymbolen voor Ubuntu</name>
   <name xml:lang="nn">Feilsøkings­symbol for Ubuntu</name>
@@ -54,6 +55,7 @@
   <summary xml:lang="hu">Hibakeresési szimbólumok az Ubuntuhoz</summary>
   <summary xml:lang="id">Simbol-simbol Debug untuk Ubuntu</summary>
   <summary xml:lang="it">Simboli di debug per Ubuntu</summary>
+  <summary xml:lang="ka">Ubuntu-ს გამართვის სიმბოლოები</summary>
   <summary xml:lang="ko">우분투 디버그 기호</summary>
   <summary xml:lang="nl">Debugsymbolen voor Ubuntu</summary>
   <summary xml:lang="nn">Feilsøkings­symbol for Ubuntu</summary>
