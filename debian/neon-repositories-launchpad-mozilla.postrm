@@ -33,17 +33,22 @@ set -e
 
 . /etc/os-release
 
+echo "XXX" $1
+
 case "$1" in
     remove|purge)
+	echo REMOVE
 	rm -f /etc/apt/sources.list.d/org.kde.neon.net.launchpad.ppa.mozillateam.list
 	rm -f /etc/apt/trusted.gpg.d/org.kde.neon.net.launchpad.ppa.mozillateam.asc
 	rm -f /etc/apt/preferences.d/org-kde-neon-net-launchpad-ppa-mozillateam-pin
 	;;
 
     upgrade|failed-upgrade|disappear)
+	echo UPGRADE
 	;;
 
     abort-install|abort-upgrade)
+	echo ABORT
 	;;
 
     *)
