@@ -1,6 +1,0 @@
-# SPDX-License-Identifier: GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
-# SPDX-FileCopyrightText: 2019-2020 Jonathan Riddell <jr@jriddell.org>
-# SPDX-FileCopyrightText: 2020 Harald Sitter <sitter@kde.org>
-
-rm_conffile /etc/apt/preferences.d/org-kde-neon-net-launchpad-ppa-mozillateam-pin
-rm_conffile /etc/apt/trusted.gpg.d/org.kde.neon.net.launchpad.ppa.mozillateam.asc
