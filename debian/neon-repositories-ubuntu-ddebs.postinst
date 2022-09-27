@@ -26,7 +26,7 @@ if ! grep --quiet --extended-regexp -r --include="*.list" '^deb\s.+ddebs.ubuntu.
       /etc/apt/sources.list.d; then
   echo "WARNING: ddebs.ubuntu.com REPO ADDING FAILED! Please file a bug at bugs.kde.org"
 else
-  # Refresh the cache if it doesn't already contain ddebs. This appears to be doable since updates
+  # Refresh the cache if it doesn't already contain the repo. This appears to be doable since updates
   # don't claim the lock. Whether it's sane to do is another question entirely...
   if ! apt-get indextargets | grep --quiet --extended-regexp '^Repo-URI:.+ddebs.ubuntu.com'; then
     apt-get update || true # don't crap out on errors here
