@@ -29,7 +29,7 @@ else
   # Refresh the cache if it doesn't already contain ddebs. This appears to be doable since updates
   # don't claim the lock. Whether it's sane to do is another question entirely...
   if ! apt-get indextargets | grep --quiet --extended-regexp '^Repo-URI:.+ddebs.ubuntu.com'; then
-    apt-get update || true # don't crap ou ton errors here
+    apt-get update || true # don't crap out on errors here
   fi
 fi
 
