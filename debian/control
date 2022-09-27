@@ -12,3 +12,10 @@ Pre-Depends: apt, ubuntu-dbgsym-keyring
 Description: Ubuntu debug symbols repository sources.list
  Adds the Ubuntu ddebs repository to the sources.list of apt if it isn't already
  present.
+
+Package: neon-repositories-launchpad-mozilla
+Architecture: all
+Depends: ${misc:Depends}
+Pre-Depends: apt, ubuntu-dbgsym-keyring
+Description: Firefox and Thunderbird PPA sources.list
+ Adds the Firefox PPA to the sources.list of apt if it isn't already  present.

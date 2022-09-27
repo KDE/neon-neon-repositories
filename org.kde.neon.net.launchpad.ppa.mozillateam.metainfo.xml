@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-License-Identifier: FSFAP
+  SPDX-FileCopyrightText: 2022 Harald Sitter <sitter@kde.org>
+ -->
+<component type="repository">
+  <id>org.kde.neon.net.launchpad.mozillateam.ppa</id>
+  <metadata_license>FSFAP</metadata_license>
+  <name>Firefox and Thunderbird Archive</name>
+  <summary>Firefox and Thunderbird stable builds</summary>
+  <pkgname>neon-repositories-launchpad-firefox</pkgname>
+</component>
