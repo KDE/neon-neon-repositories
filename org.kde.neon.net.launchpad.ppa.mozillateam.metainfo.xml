@@ -7,6 +7,18 @@
   <id>org.kde.neon.net.launchpad.mozillateam.ppa</id>
   <metadata_license>FSFAP</metadata_license>
   <name>Firefox and Thunderbird Archive</name>
+  <name xml:lang="ca">Arxiu del Firefox i del Thunderbird</name>
+  <name xml:lang="ca-valencia">Arxiu de Firefox i de Thunderbird</name>
+  <name xml:lang="nl">Archief van Firefox en Thunderbird</name>
+  <name xml:lang="tr">Firefox ve Thunderbird Arşivi</name>
+  <name xml:lang="uk">Архів Firefox і Thunderbird</name>
+  <name xml:lang="x-test">xxFirefox and Thunderbird Archivexx</name>
   <summary>Firefox and Thunderbird stable builds</summary>
+  <summary xml:lang="ca">Construccions estàndards del Firefox i del Thunderbird</summary>
+  <summary xml:lang="ca-valencia">Construccions estàndards de Firefox i de Thunderbird</summary>
+  <summary xml:lang="nl">Stabiele versies van Firefox en Thunderbird</summary>
+  <summary xml:lang="tr">Firefox ve Thunderbird kararlı yapıları</summary>
+  <summary xml:lang="uk">Стабільні випуски Firefox і Thunderbird</summary>
+  <summary xml:lang="x-test">xxFirefox and Thunderbird stable buildsxx</summary>
   <pkgname>neon-repositories-launchpad-firefox</pkgname>
 </component>
