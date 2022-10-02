@@ -15,6 +15,7 @@
   <name xml:lang="nl">Archief van Firefox en Thunderbird</name>
   <name xml:lang="pt">Arquivo do Firefox e Thunderbird</name>
   <name xml:lang="sl">Arhiv Firefox in Thunderbird</name>
+  <name xml:lang="sv">Firefox- och Thunderbird-arkiv</name>
   <name xml:lang="tr">Firefox ve Thunderbird Arşivi</name>
   <name xml:lang="uk">Архів Firefox і Thunderbird</name>
   <name xml:lang="x-test">xxFirefox and Thunderbird Archivexx</name>
@@ -27,6 +28,7 @@
   <summary xml:lang="nl">Stabiele versies van Firefox en Thunderbird</summary>
   <summary xml:lang="pt">Versões estáveis do Firefox e Thunderbird</summary>
   <summary xml:lang="sl">Stabilni prevodi Firefox in Thunderbird</summary>
+  <summary xml:lang="sv">Stabila byggen av Firefox- och Thunderbird</summary>
   <summary xml:lang="tr">Firefox ve Thunderbird kararlı yapıları</summary>
   <summary xml:lang="uk">Стабільні випуски Firefox і Thunderbird</summary>
   <summary xml:lang="x-test">xxFirefox and Thunderbird stable buildsxx</summary>
