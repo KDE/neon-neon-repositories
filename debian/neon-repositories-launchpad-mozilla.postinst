@@ -6,31 +6,6 @@ set -ex
 
 . /etc/os-release
 
-if [ ! -e /etc/apt/sources.list.d/org.kde.neon.net.launchpad.ppa.mozillateam.list ] &&
-     ! grep --quiet --extended-regexp -r --include="*.list" '^deb\s.+ppa.launchpadcontent.net/mozillateam/ppa/ubuntu' \
-       /etc/apt/sources.list \
-       /etc/apt/sources.list.d; then
-   cat << EOF > /etc/apt/sources.list.d/org.kde.neon.net.launchpad.ppa.mozillateam.list
-deb https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu ${VERSION_CODENAME} main
-EOF
-fi
-
-# Ensure that the repo is really present now! The grep is a tad complicated and
-# may fail - resulting in no file having been written. If we get here
-# and no file in sources.list contains the repo then adding failed for unknown
-# reasons.
-if ! grep --quiet --extended-regexp -r --include="*.list" '^deb\s.+ppa.launchpadcontent.net/mozillateam/ppa/ubuntu' \
-      /etc/apt/sources.list \
-      /etc/apt/sources.list.d; then
-  echo "WARNING: ppa.launchpadcontent.net/mozillateam/ppa/ubuntu REPO ADDING FAILED! Please file a bug at bugs.kde.org"
-else
-  # Refresh the cache if it doesn't already contain the repo. This appears to be doable since updates
-  # don't claim the lock. Whether it's sane to do is another question entirely...
-  if ! apt-get indextargets | grep --quiet --extended-regexp '^Repo-URI:.+ppa.launchpadcontent.net/mozillateam/ppa/ubuntu'; then
-    apt-get update || true # don't crap out on errors here
-  fi
-fi
-
 # Earlier versions of this package had a postrm which would always rm these two files even on upgrade
 # So check and add back their contents
 
@@ -202,6 +177,31 @@ o5I=
 =T8PE
 -----END PGP PUBLIC KEY BLOCK-----
 EOF
+fi
+
+if [ ! -e /etc/apt/sources.list.d/org.kde.neon.net.launchpad.ppa.mozillateam.list ] &&
+     ! grep --quiet --extended-regexp -r --include="*.list" '^deb\s.+ppa.launchpadcontent.net/mozillateam/ppa/ubuntu' \
+       /etc/apt/sources.list \
+       /etc/apt/sources.list.d; then
+   cat << EOF > /etc/apt/sources.list.d/org.kde.neon.net.launchpad.ppa.mozillateam.list
+deb https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu ${VERSION_CODENAME} main
+EOF
+fi
+
+# Ensure that the repo is really present now! The grep is a tad complicated and
+# may fail - resulting in no file having been written. If we get here
+# and no file in sources.list contains the repo then adding failed for unknown
+# reasons.
+if ! grep --quiet --extended-regexp -r --include="*.list" '^deb\s.+ppa.launchpadcontent.net/mozillateam/ppa/ubuntu' \
+      /etc/apt/sources.list \
+      /etc/apt/sources.list.d; then
+  echo "WARNING: ppa.launchpadcontent.net/mozillateam/ppa/ubuntu REPO ADDING FAILED! Please file a bug at bugs.kde.org"
+else
+  # Refresh the cache if it doesn't already contain the repo. This appears to be doable since updates
+  # don't claim the lock. Whether it's sane to do is another question entirely...
+  if ! apt-get indextargets | grep --quiet --extended-regexp '^Repo-URI:.+ppa.launchpadcontent.net/mozillateam/ppa/ubuntu'; then
+    apt-get update || true # don't crap out on errors here
+  fi
 fi
 
 # dh_installdeb will replace this with shell code automatically
