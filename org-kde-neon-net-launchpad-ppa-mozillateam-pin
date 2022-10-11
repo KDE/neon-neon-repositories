@@ -4,3 +4,11 @@
 Package: firefox
 Pin: release o=LP-PPA-mozillateam
 Pin-Priority: 550
+
+Package: firefox-*
+Pin: release o=LP-PPA-mozillateam
+Pin-Priority: 550
+
+Package: firefox-locale-*
+Pin: release o=LP-PPA-mozillateam
+Pin-Priority: 550
