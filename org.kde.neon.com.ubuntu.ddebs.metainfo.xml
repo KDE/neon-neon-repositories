@@ -8,7 +8,6 @@
   <metadata_license>FSFAP</metadata_license>
   <name>Ubuntu Debug Symbols</name>
   <name xml:lang="ar">رموز التنقيح أبونتو</name>
-  <name xml:lang="ast">Símbolos de depuración d'Ubuntu</name>
   <name xml:lang="az">Ubuntu Sazlama Simvolları</name>
   <name xml:lang="ca">Símbols de depuració de l'Ubuntu</name>
   <name xml:lang="ca-valencia">Símbols de depuració d'Ubuntu</name>
@@ -42,7 +41,6 @@
   <name xml:lang="zh-CN">Ubuntu 调试符号包</name>
   <summary>Debug Symbols for Ubuntu</summary>
   <summary xml:lang="ar">رموز التنقيح أبونتو</summary>
-  <summary xml:lang="ast">Los símbolos de depuración pa Ubuntu</summary>
   <summary xml:lang="az">Ubuntu üçün Sazlama Simvolları</summary>
   <summary xml:lang="ca">Símbols de depuració per a l'Ubuntu</summary>
   <summary xml:lang="ca-valencia">Símbols de depuració per a Ubuntu</summary>
