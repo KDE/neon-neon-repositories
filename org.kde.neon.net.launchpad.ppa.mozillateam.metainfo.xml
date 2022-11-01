@@ -15,6 +15,7 @@
   <name xml:lang="fi">Firefox- ja Thunderbird-arkisto</name>
   <name xml:lang="fr">Archive de Firefox et de Thunderbird</name>
   <name xml:lang="it">Archivio di Firefox e Thunderbird</name>
+  <name xml:lang="ka">Firefox -ის და Thunderbird -ის არქივი</name>
   <name xml:lang="ko">Firefox 및 Thunderbird 저장소</name>
   <name xml:lang="nl">Archief van Firefox en Thunderbird</name>
   <name xml:lang="nn">Firefox- og Thunderbird-arkiv</name>
@@ -34,6 +35,7 @@
   <summary xml:lang="fi">Firefoxin ja Thunderbirdin vakaat koosteet</summary>
   <summary xml:lang="fr">Versions stables de Firefox et de Thunderbird </summary>
   <summary xml:lang="it">Versioni stabili di Firefox e Thunderbird</summary>
+  <summary xml:lang="ka">Firefox -ის და Thunderbird -ის სტაბილური ვერსიები</summary>
   <summary xml:lang="ko">Firefox 및 Thunderbird 안정판 빌드</summary>
   <summary xml:lang="nl">Stabiele versies van Firefox en Thunderbird</summary>
   <summary xml:lang="nn">Stabile versjonar av Firefox og Thunderbird</summary>
