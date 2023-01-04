@@ -10,6 +10,7 @@
   <name xml:lang="ar">أرشيف فيرفكس وثندربيرد</name>
   <name xml:lang="ca">Arxiu del Firefox i del Thunderbird</name>
   <name xml:lang="ca-valencia">Arxiu de Firefox i de Thunderbird</name>
+  <name xml:lang="el">Αρχειοθήκη Firefox και Thunderbird</name>
   <name xml:lang="en-GB">Firefox and Thunderbird Archive</name>
   <name xml:lang="es">Archivo de Firefox y Thunderbird</name>
   <name xml:lang="eu">Firefox eta Thunderbird artxiboa</name>
@@ -32,6 +33,7 @@
   <summary xml:lang="ar">الحزم المستقرة لفيرفكس وثندربيرد</summary>
   <summary xml:lang="ca">Construccions estàndards del Firefox i del Thunderbird</summary>
   <summary xml:lang="ca-valencia">Construccions estàndards de Firefox i de Thunderbird</summary>
+  <summary xml:lang="el">Σταθερές κατασκευές των Firefox και Thunderbird</summary>
   <summary xml:lang="en-GB">Firefox and Thunderbird stable builds</summary>
   <summary xml:lang="es">Compilaciones estables de Firefox y Thunderbird</summary>
   <summary xml:lang="eu">Firefox eta Thunderbird eraikin egonkorrak</summary>
