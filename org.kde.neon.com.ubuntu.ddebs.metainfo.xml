@@ -19,6 +19,7 @@
   <name xml:lang="eu">Ubuntu arazteko ikurrak</name>
   <name xml:lang="fi">Ubuntun virheenpaikannussymbolit</name>
   <name xml:lang="fr">Symboles de débogage pour Ubuntu</name>
+  <name xml:lang="gl">Símbolos de depuración de Ubuntu</name>
   <name xml:lang="hi">उबुन्टू डीबग संकेत</name>
   <name xml:lang="hu">Ubuntu hibakeresési szimbólumok</name>
   <name xml:lang="id">Simbol Debug Ubuntu</name>
@@ -53,6 +54,7 @@
   <summary xml:lang="eu">Ubuntu arazteko ikurrak</summary>
   <summary xml:lang="fi">Virheenpaikannussymbolit Ubuntuun</summary>
   <summary xml:lang="fr">Symboles de débogage pour Ubuntu</summary>
+  <summary xml:lang="gl">Símbolos de depuración para Ubuntu</summary>
   <summary xml:lang="hi">उबुन्टू के लिए डीबग संकेत</summary>
   <summary xml:lang="hu">Hibakeresési szimbólumok az Ubuntuhoz</summary>
   <summary xml:lang="id">Simbol-simbol Debug untuk Ubuntu</summary>
