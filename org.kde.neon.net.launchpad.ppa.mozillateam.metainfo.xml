@@ -13,6 +13,7 @@
   <name xml:lang="cs">Archiv Firefoxu a Thunderbirdu</name>
   <name xml:lang="el">Αρχειοθήκη Firefox και Thunderbird</name>
   <name xml:lang="en-GB">Firefox and Thunderbird Archive</name>
+  <name xml:lang="eo">Firefox- kaj Thunderbird-Arkivo</name>
   <name xml:lang="es">Archivo de Firefox y Thunderbird</name>
   <name xml:lang="eu">Firefox eta Thunderbird artxiboa</name>
   <name xml:lang="fi">Firefox- ja Thunderbird-arkisto</name>
@@ -41,6 +42,7 @@
   <summary xml:lang="cs">Stabilní sestavení Firefoxu a Thunderbirdu</summary>
   <summary xml:lang="el">Σταθερές κατασκευές των Firefox και Thunderbird</summary>
   <summary xml:lang="en-GB">Firefox and Thunderbird stable builds</summary>
+  <summary xml:lang="eo">Stabilaj konstruoj de Firefox kaj Thunderbird</summary>
   <summary xml:lang="es">Compilaciones estables de Firefox y Thunderbird</summary>
   <summary xml:lang="eu">Firefox eta Thunderbird eraikin egonkorrak</summary>
   <summary xml:lang="fi">Firefoxin ja Thunderbirdin vakaat koosteet</summary>

@@ -15,6 +15,7 @@
   <name xml:lang="de">Ubuntu Debug-Symbole</name>
   <name xml:lang="el">Σύμβολα αποσφαλμάτωσης του Ubuntu</name>
   <name xml:lang="en-GB">Ubuntu Debug Symbols</name>
+  <name xml:lang="eo">Ubuntu Sencimigaj Simboloj</name>
   <name xml:lang="es">Símbolos de depuración de Ubuntu</name>
   <name xml:lang="eu">Ubuntu arazteko ikurrak</name>
   <name xml:lang="fi">Ubuntun virheenpaikannussymbolit</name>
@@ -50,6 +51,7 @@
   <summary xml:lang="de">Debug-Symbole für Ubuntu</summary>
   <summary xml:lang="el">Σύμβολα αποσφαλμάτωσης για το Ubuntu</summary>
   <summary xml:lang="en-GB">Debug Symbols for Ubuntu</summary>
+  <summary xml:lang="eo">Sencimigaj Simboloj por Ubuntu</summary>
   <summary xml:lang="es">Símbolos de depuración para Ubuntu</summary>
   <summary xml:lang="eu">Ubuntu arazteko ikurrak</summary>
   <summary xml:lang="fi">Virheenpaikannussymbolit Ubuntuun</summary>
