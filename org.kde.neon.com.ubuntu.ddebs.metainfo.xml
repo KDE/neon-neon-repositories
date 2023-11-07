@@ -40,6 +40,7 @@
   <name xml:lang="ta">உபுண்டு பிழைத்திருத்த குறியீடுகள்</name>
   <name xml:lang="tr">Ubuntu Hata Ayıklama Sembolleri</name>
   <name xml:lang="uk">Діагностичні символи Ubuntu</name>
+  <name xml:lang="x-test">xxUbuntu Debug Symbolsxx</name>
   <name xml:lang="zh-CN">Ubuntu 调试符号包</name>
   <summary>Debug Symbols for Ubuntu</summary>
   <summary xml:lang="ar">رموز التنقيح أبونتو</summary>
@@ -75,6 +76,7 @@
   <summary xml:lang="ta">உபுண்டுக்கான பிழைத்திருத்த குறியீடுகள் (debug symbols)</summary>
   <summary xml:lang="tr">Ubuntu için Hata Ayıklama Sembolleri</summary>
   <summary xml:lang="uk">Діагностичні символи для Ubuntu</summary>
+  <summary xml:lang="x-test">xxDebug Symbols for Ubuntuxx</summary>
   <summary xml:lang="zh-CN">为 Ubuntu 准备的调试符号包</summary>
   <pkgname>neon-repositories-ubuntu-ddebs</pkgname>
 </component>
