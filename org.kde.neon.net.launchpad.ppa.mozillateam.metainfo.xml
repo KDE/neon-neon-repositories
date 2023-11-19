@@ -8,6 +8,7 @@
   <metadata_license>FSFAP</metadata_license>
   <name>Firefox and Thunderbird Archive</name>
   <name xml:lang="ar">أرشيف فيرفكس وثندربيرد</name>
+  <name xml:lang="az">Firefox və Thunderbird arxivi</name>
   <name xml:lang="ca">Arxiu del Firefox i del Thunderbird</name>
   <name xml:lang="ca-valencia">Arxiu de Firefox i de Thunderbird</name>
   <name xml:lang="cs">Archiv Firefoxu a Thunderbirdu</name>
@@ -37,6 +38,7 @@
   <name xml:lang="zh-CN">Firefox 和 Thunderbird 存档</name>
   <summary>Firefox and Thunderbird stable builds</summary>
   <summary xml:lang="ar">الحزم المستقرة لفيرفكس وثندربيرد</summary>
+  <summary xml:lang="az">Firefox və Thunderbird stabil buraxılışları</summary>
   <summary xml:lang="ca">Construccions estàndards del Firefox i del Thunderbird</summary>
   <summary xml:lang="ca-valencia">Construccions estàndards de Firefox i de Thunderbird</summary>
   <summary xml:lang="cs">Stabilní sestavení Firefoxu a Thunderbirdu</summary>
