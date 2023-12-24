@@ -42,6 +42,7 @@
   <name xml:lang="uk">Діагностичні символи Ubuntu</name>
   <name xml:lang="x-test">xxUbuntu Debug Symbolsxx</name>
   <name xml:lang="zh-CN">Ubuntu 调试符号包</name>
+  <name xml:lang="zh-TW">Ubuntu 除錯符號</name>
   <summary>Debug Symbols for Ubuntu</summary>
   <summary xml:lang="ar">رموز التنقيح أبونتو</summary>
   <summary xml:lang="az">Ubuntu üçün Sazlama Simvolları</summary>
@@ -78,5 +79,6 @@
   <summary xml:lang="uk">Діагностичні символи для Ubuntu</summary>
   <summary xml:lang="x-test">xxDebug Symbols for Ubuntuxx</summary>
   <summary xml:lang="zh-CN">为 Ubuntu 准备的调试符号包</summary>
+  <summary xml:lang="zh-TW">Ubuntu 用的除錯符號</summary>
   <pkgname>neon-repositories-ubuntu-ddebs</pkgname>
 </component>
