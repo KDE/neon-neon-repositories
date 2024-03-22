@@ -28,7 +28,7 @@ if ! grep --quiet --extended-regexp -r --include="*.list" '^deb\s.+ddebs.ubuntu.
 else
   # Refresh the cache if it doesn't already contain the repo. This appears to be doable since updates
   # don't claim the lock. Whether it's sane to do is another question entirely...
-  if ! apt-get indextargets | grep --quiet --extended-regexp '^Repo-URI:.+ddebs.ubuntu.com'; then
+  if ! apt-get indextargets | grep --quiet --extended-regexp '^Repo-URI:.+ddebs.ubuntu.com' && [ "$JOB_NAME" = "mgmt_daily_promotion_jammy_release" ]; then
     apt-get update || true # don't crap out on errors here
   fi
 fi
