@@ -19,3 +19,10 @@ Depends: ${misc:Depends}
 Pre-Depends: apt, ubuntu-dbgsym-keyring
 Description: Firefox and Thunderbird PPA sources.list
  Adds the Firefox PPA to the sources.list of apt if it isn't already  present.
+
+Package: neon-repositories-mozilla-firefox
+Architecture: all
+Depends: ${misc:Depends}
+Pre-Depends: apt, ubuntu-dbgsym-keyring
+Description: Mozilla Firefox beta/dev/nightly .sources
+ Adds the Mozilla Firefox debian archive to the sources.list.d of apt if it isn't already  present.
