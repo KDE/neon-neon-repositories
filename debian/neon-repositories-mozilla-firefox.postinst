@@ -44,7 +44,7 @@ XWvZkRT+u+yzH1s5yFYBqc2JTrrJvRU=
 EOF
 fi
 
-if [ ! -e /etc/apt/sources.list.d/org.kde.neon.packages.mozilla.org.sources ] then
+if [ ! -e /etc/apt/sources.list.d/org.kde.neon.packages.mozilla.org.sources ]; then
    cat << EOF > /etc/apt/sources.list.d/org.kde.neon.packages.mozilla.org.sources
 X-Repolib-Name: KDE neon org.kde.neon.packages.mozilla.org
 Types: deb deb-src
@@ -52,7 +52,6 @@ URIs: https://packages.mozilla.org/apt
 Suites: mozilla
 Components: main
 Signed-By: /etc/apt/keyrings/org.kde.neon.packages.mozilla.org.asc
-deb https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu ${VERSION_CODENAME} main
 EOF
 fi
 
