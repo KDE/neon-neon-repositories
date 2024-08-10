@@ -9,18 +9,24 @@
   <name>Firefox and Thunderbird Archive</name>
   <name xml:lang="ca">Arxiu del Firefox i del Thunderbird</name>
   <name xml:lang="ca-valencia">Arxiu de Firefox i de Thunderbird</name>
+  <name xml:lang="gl">Arquivo de Firefox e Thunderbird</name>
+  <name xml:lang="nl">Archief van Firefox en Thunderbird</name>
   <name xml:lang="nn">Firefox- og Thunderbird-arkiv</name>
   <name xml:lang="sl">Firefox in Thunderbird arhiv</name>
   <name xml:lang="sv">Firefox- och Thunderbird-arkiv</name>
   <name xml:lang="uk">Архів Firefox і Thunderbird</name>
   <name xml:lang="x-test">xxFirefox and Thunderbird Archivexx</name>
+  <name xml:lang="zh-CN">Firefox 和 Thunderbird 存档</name>
   <summary>Firefox and Thunderbird stable builds</summary>
   <summary xml:lang="ca">Construccions estàndards del Firefox i del Thunderbird</summary>
   <summary xml:lang="ca-valencia">Construccions estàndards de Firefox i de Thunderbird</summary>
+  <summary xml:lang="gl">Construcións estábeis de Firefox e Thunderbird.</summary>
+  <summary xml:lang="nl">Stabiele versies van Firefox en Thunderbird</summary>
   <summary xml:lang="nn">Stabile versjonar av Firefox og Thunderbird</summary>
   <summary xml:lang="sl">Stabilne izgradnje Firefox in Thunderbird</summary>
   <summary xml:lang="sv">Stabila byggen av Firefox- och Thunderbird</summary>
   <summary xml:lang="uk">Стабільні збірки Firefox і Thunderbird</summary>
   <summary xml:lang="x-test">xxFirefox and Thunderbird stable buildsxx</summary>
+  <summary xml:lang="zh-CN">Firefox 和 Thunderbird 稳定版本</summary>
   <pkgname>neon-repositories-mozilla-firefox</pkgname>
 </component>
