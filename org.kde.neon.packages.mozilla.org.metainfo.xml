@@ -15,6 +15,7 @@
   <name xml:lang="pl">Archiwum Firefoksa i Thunderbirda</name>
   <name xml:lang="sl">Firefox in Thunderbird arhiv</name>
   <name xml:lang="sv">Firefox- och Thunderbird-arkiv</name>
+  <name xml:lang="tr">Firefox ve Thunderbird Arşivi</name>
   <name xml:lang="uk">Архів Firefox і Thunderbird</name>
   <name xml:lang="x-test">xxFirefox and Thunderbird Archivexx</name>
   <name xml:lang="zh-CN">Firefox 和 Thunderbird 存档</name>
@@ -27,6 +28,7 @@
   <summary xml:lang="pl">Stabilne wydania Firefoksa i Thunderbirda</summary>
   <summary xml:lang="sl">Stabilne izgradnje Firefox in Thunderbird</summary>
   <summary xml:lang="sv">Stabila byggen av Firefox- och Thunderbird</summary>
+  <summary xml:lang="tr">Firefox ve Thunderbird kararlı yapıları</summary>
   <summary xml:lang="uk">Стабільні збірки Firefox і Thunderbird</summary>
   <summary xml:lang="x-test">xxFirefox and Thunderbird stable buildsxx</summary>
   <summary xml:lang="zh-CN">Firefox 和 Thunderbird 稳定版本</summary>
