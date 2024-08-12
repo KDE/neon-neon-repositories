@@ -47,7 +47,7 @@ fi
 if [ ! -e /etc/apt/sources.list.d/org.kde.neon.packages.mozilla.org.sources ]; then
    cat << EOF > /etc/apt/sources.list.d/org.kde.neon.packages.mozilla.org.sources
 X-Repolib-Name: KDE neon org.kde.neon.packages.mozilla.org
-Types: deb deb-src
+Types: deb
 URIs: https://packages.mozilla.org/apt
 Suites: mozilla
 Components: main
