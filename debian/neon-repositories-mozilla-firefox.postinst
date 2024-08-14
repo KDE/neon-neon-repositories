@@ -20,8 +20,8 @@ Pin-Priority: 1000
 EOF
 fi
 
-if [ ! -e  /etc/apt/trusted.gpg.d/org.kde.neon.packages.mozilla.org.asc ]; then
-   cat << EOF >  /etc/apt/trusted.gpg.d/org.kde.neon.packages.mozilla.org.asc
+if [ ! -e  /etc/apt/keyring/org.kde.neon.packages.mozilla.org.asc ]; then
+   cat << EOF >  /etc/apt/keyring/org.kde.neon.packages.mozilla.org.asc
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 xsBNBGCRt7MBCADkYJHHQQoL6tKrW/LbmfR9ljz7ib2aWno4JO3VKQvLwjyUMPpq
@@ -51,7 +51,7 @@ Types: deb
 URIs: https://packages.mozilla.org/apt
 Suites: mozilla
 Components: main
-Signed-By: /etc/apt/keyrings/org.kde.neon.packages.mozilla.org.asc
+Signed-By: /etc/apt/keyring/org.kde.neon.packages.mozilla.org.asc
 EOF
 fi
 
