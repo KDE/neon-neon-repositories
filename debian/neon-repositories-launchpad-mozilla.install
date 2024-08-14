@@ -1,3 +1,0 @@
-org.kde.neon.net.launchpad.ppa.mozillateam.metainfo.xml /usr/share/metainfo/
-org.kde.neon.net.launchpad.ppa.mozillateam.asc /etc/apt/trusted.gpg.d/
-org-kde-neon-net-launchpad-ppa-mozillateam-pin /etc/apt/preferences.d/

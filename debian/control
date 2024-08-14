@@ -13,16 +13,13 @@ Description: Ubuntu debug symbols repository sources.list
  Adds the Ubuntu ddebs repository to the sources.list of apt if it isn't already
  present.
 
-Package: neon-repositories-launchpad-mozilla
-Architecture: all
-Depends: ${misc:Depends}
-Pre-Depends: apt, ubuntu-dbgsym-keyring
-Description: Firefox and Thunderbird PPA sources.list
- Adds the Firefox PPA to the sources.list of apt if it isn't already  present.
-
 Package: neon-repositories-mozilla-firefox
 Architecture: all
 Depends: ${misc:Depends}
 Pre-Depends: apt, ubuntu-dbgsym-keyring
+Breaks: neon-repositories-launchpad-mozilla
+Conflicts: neon-repositories-launchpad-mozilla
+Replaces: neon-repositories-launchpad-mozilla
 Description: Mozilla Firefox beta/dev/nightly .sources
- Adds the Mozilla Firefox debian archive to the sources.list.d of apt if it isn't already  present.
+ Adds the Mozilla Firefox debian archive to the sources.list.d of apt if it isn't 
+already present.
