@@ -22,4 +22,4 @@ Conflicts: neon-repositories-launchpad-mozilla
 Replaces: neon-repositories-launchpad-mozilla
 Description: Mozilla Firefox beta/dev/nightly .sources
  Adds the Mozilla Firefox debian archive to the sources.list.d of apt if it isn't 
-already present.
+ already present.
