@@ -13,7 +13,7 @@ Types: deb
 URIs: https://packages.mozilla.org/apt
 Suites: mozilla
 Components: main
-Signed-By: /etc/apt/keyring/org.kde.neon.packages.mozilla.org.asc
+Signed-By: /etc/apt/keyrings/org.kde.neon.packages.mozilla.org.asc
 EOF
 fi
 

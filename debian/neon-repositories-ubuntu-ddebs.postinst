@@ -15,7 +15,7 @@ Types: deb
 URIs: http://ddebs.ubuntu.com
 Suites: noble noble-updates noble-proposed
 Components: main restricted universe multiverse
-Signed-By: /etc/apt/keyring/dbgsym-release-key.asc
+Signed-By: /etc/apt/keyrings/dbgsym-release-key.asc
 EOF
 fi
 
