@@ -2,13 +2,5 @@
 # SPDX-FileCopyrightText: 2022 Harald Sitter <sitter@kde.org>
 
 Package: firefox
-Pin: release o=packages.mozilla.org
-Pin-Priority: 1000
-
-Package: firefox-*
-Pin: release o=packages.mozilla.org
-Pin-Priority: 1000
-
-Package: firefox-locale-*
-Pin: release o=packages.mozilla.org
+Pin: origin packages.mozilla.org
 Pin-Priority: 1000
