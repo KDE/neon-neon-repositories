@@ -6,14 +6,26 @@ set -ex
 
 . /etc/os-release
 
-if [ ! -e /etc/apt/sources.list.d/org.kde.neon.com.ubuntu.ddebs.list ] &&
-     ! grep --quiet --extended-regexp -r --include="*.list" '^deb\s.+ddebs.ubuntu.com' \
+if [ ! -e /etc/apt/sources.list.d/org.kde.neon.com.ubuntu.ddebs.sources ] &&
+     ! grep --quiet --extended-regexp -r --include="*.sources" --include="*.list" 'ddebs.ubuntu.com' \
        /etc/apt/sources.list \
        /etc/apt/sources.list.d; then
-   cat << EOF > /etc/apt/sources.list.d/org.kde.neon.com.ubuntu.ddebs.list
-deb http://ddebs.ubuntu.com ${VERSION_CODENAME} main restricted universe multiverse
-deb http://ddebs.ubuntu.com ${VERSION_CODENAME}-updates main restricted universe multiverse
-deb http://ddebs.ubuntu.com ${VERSION_CODENAME}-proposed main restricted universe multiverse
+   cat << EOF > /etc/apt/sources.list.d/org.kde.neon.com.ubuntu.ddebs.sources
+Types: deb
+URIs: http://ddebs.ubuntu.com
+Suites: noble noble-updates noble-proposed
+Components: main restricted universe multiverse
+EOF
+fi
+
+if [ ! -e /etc/apt/sources.list.d/org.kde.neon.packages.mozilla.org.sources ]; then
+   cat << EOF > /etc/apt/sources.list.d/org.kde.neon.packages.mozilla.org.sources
+X-Repolib-Name: KDE neon org.kde.neon.packages.mozilla.org
+Types: deb
+URIs: https://packages.mozilla.org/apt
+Suites: mozilla
+Components: main
+Signed-By: /etc/apt/keyring/org.kde.neon.packages.mozilla.org.asc
 EOF
 fi
 
