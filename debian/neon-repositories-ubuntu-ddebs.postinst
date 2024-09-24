@@ -18,22 +18,11 @@ Components: main restricted universe multiverse
 EOF
 fi
 
-if [ ! -e /etc/apt/sources.list.d/org.kde.neon.packages.mozilla.org.sources ]; then
-   cat << EOF > /etc/apt/sources.list.d/org.kde.neon.packages.mozilla.org.sources
-X-Repolib-Name: KDE neon org.kde.neon.packages.mozilla.org
-Types: deb
-URIs: https://packages.mozilla.org/apt
-Suites: mozilla
-Components: main
-Signed-By: /etc/apt/keyring/org.kde.neon.packages.mozilla.org.asc
-EOF
-fi
-
 # Ensure that the repo is really present now! The grep is a tad complicated and
 # may fail - resulting in no file having been written. If we get here
 # and no file in sources.list contains the repo then adding failed for unknown
 # reasons.
-if ! grep --quiet --extended-regexp -r --include="*.list" '^deb\s.+ddebs.ubuntu.com' \
+if ! grep --quiet --extended-regexp -r --include="*.sources" 'ddebs.ubuntu.com' \
       /etc/apt/sources.list \
       /etc/apt/sources.list.d; then
   echo "WARNING: ddebs.ubuntu.com REPO ADDING FAILED! Please file a bug at bugs.kde.org"
