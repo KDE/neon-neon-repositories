@@ -1,1 +1,2 @@
 org.kde.neon.com.ubuntu.ddebs.metainfo.xml /usr/share/metainfo/
+dbgsym-release-key.asc /etc/apt/keyring/
