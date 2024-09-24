@@ -36,8 +36,6 @@ set -e
 case "$1" in
     remove|purge)
 	rm -f /etc/apt/sources.list.d/org.kde.neon.packages.mozilla.org.sources
-	rm -f /etc/apt/keyring/org.kde.neon.packages.mozilla.org.asc
-	rm -f /etc/apt/preferences.d/org-kde-neon-packages-mozilla-org-pin
 	;;
 
     upgrade|failed-upgrade|disappear)
