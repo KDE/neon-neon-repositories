@@ -16,7 +16,7 @@ Description: Ubuntu debug symbols repository sources.list
 Package: neon-repositories-mozilla-firefox
 Architecture: all
 Depends: ${misc:Depends}
-Pre-Depends: apt, ubuntu-dbgsym-keyring
+Pre-Depends: apt
 Breaks: neon-repositories-launchpad-mozilla
 Conflicts: neon-repositories-launchpad-mozilla
 Replaces: neon-repositories-launchpad-mozilla
