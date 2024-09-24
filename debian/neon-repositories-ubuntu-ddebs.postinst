@@ -19,6 +19,8 @@ Signed-By: /etc/apt/keyring/dbgsym-release-key.asc
 EOF
 fi
 
+JOB_NAME=${JOB_NAME:="unset"}
+
 # Ensure that the repo is really present now! The grep is a tad complicated and
 # may fail - resulting in no file having been written. If we get here
 # and no file in sources.list contains the repo then adding failed for unknown

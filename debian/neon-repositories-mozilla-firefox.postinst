@@ -31,6 +31,8 @@ Signed-By: /etc/apt/keyring/org.kde.neon.packages.mozilla.org.asc
 EOF
 fi
 
+JOB_NAME=${JOB_NAME:="unset"}
+
 # Refresh the cache if it doesn't already contain the repo. This appears to be doable since updates
 # don't claim the lock. Whether it's sane to do is another question entirely...
 if ! apt-get indextargets | grep --quiet --extended-regexp '^Repo-URI:.+packages.mozilla.org' && [ "$JOB_NAME" = "mgmt_daily_promotion_jammy_release" ]; then
